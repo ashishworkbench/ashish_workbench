@@ -14,7 +14,7 @@
         cursor:pointer;
 }
 .site-header {
-        max-height: 340px;
+        max-height: 300px;
         padding-right: 0;
         padding-left: 0;
         position: fixed;
