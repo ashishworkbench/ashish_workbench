@@ -1,6 +1,0 @@
---- 
-layout: default
-title: <Title place holder>
----
-{% include menu.html %}
-## {{ page.title }}
