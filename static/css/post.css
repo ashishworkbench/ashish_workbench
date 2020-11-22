@@ -1,0 +1,26 @@
+p
+{
+	text-align: justify;
+}
+h4
+{
+	font-weight: bold;
+}
+.note {
+    font-size: 12px;
+    font-style: Italic;
+    font-weight: bold;
+}
+strong, b {
+    font-size: 14px;
+}
+em, i {
+    font-size: 15px;
+}
+
+P.drop-cap:first-letter {
+    font-size: 3.5em;
+    float: left;
+    margin-top: .20em;
+    font-weight: bold;
+}
