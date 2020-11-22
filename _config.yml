@@ -1,4 +1,4 @@
-#theme: jekyll-theme-leap-day
+#Site Settings
 title: Ashish Workbench
 email: meetashishpardeshi@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -7,3 +7,26 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ashishworkbench.github.io" # the base hostname & protocol for your site
 twitter_username: PardeshiAshishK
 github_username:  ashishworkbench
+
+# Outputting
+permalink: date
+
+# Build settings
+markdown: kramdown
+
+#defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+#highlighting
+excerpt_separator: ""
+
+encoding: UTF-8
+
+collections:
+  - projects
